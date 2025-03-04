@@ -378,5 +378,33 @@ footer {
 	}
 }
 
+/*-------LARGE SCREEN STYLES-------*/
+@media screen and (min-width: 980px) {
+	#intro {
+		display: flex;
+		justify-content: flex-start; 
+		align-items: center;
+	}
+
+	#plan {
+		display: block;
+		background-color: var(--yellow);
+	}
+
+	#plan div {
+		display: flex;
+		gap: 10px;
+	}
+
+	#testimonials div{
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	#about div {
+		margin-left: 20%;
+	}
+}
 
 	
